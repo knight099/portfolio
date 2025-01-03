@@ -5,10 +5,13 @@ const navItems = {
     name: 'home',
   },
   '/blog': {
-    name: 'blog',
+    name: 'projects',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  'https://drive.google.com/file/d/1V8YGlT_IIDWAtLVlm8i1lPNYTG6hzDgw/view?usp=drive_link': {
+    name: 'resume',
+  },
+  'https://github.com/knight069': {
+    name: 'github',
   },
 }
 

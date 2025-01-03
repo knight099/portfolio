@@ -7,11 +7,14 @@ export default function Page() {
         My Portfolio
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`A skilled Software Engineer specializing in backend development and microservices. 
+          With a strong foundation in Python, Flask, and scalable system design, I excel at building high-performance APIs,
+          optimizing cloud deployments, and implementing end-to-end solutions for diverse industries.
+          I’m passionate about solving complex problems, contributing to innovative projects, and exploring cutting-edge technologies 
+          like AI and cloud-native tools. Browse my portfolio to see my work, including projects like Plant AI Assistant, 
+          JurisAI, and more, showcasing my expertise in frameworks like Next.js, MERN, and Kubernetes. Let’s build something extraordinary 
+          together!
+          CLICK BELOW👇`}
       </p>
       <div className="my-8">
         <BlogPosts />
