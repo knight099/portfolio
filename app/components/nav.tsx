@@ -7,11 +7,15 @@ const navItems = {
   '/blog': {
     name: 'projects',
   },
-  'https://drive.google.com/file/d/1V8YGlT_IIDWAtLVlm8i1lPNYTG6hzDgw/view?usp=drive_link': {
+  'https://drive.google.com/file/d/1fOYFUkXRTTJWkI7Hrt3WLBIW-9W1v4nS/view?usp=drive_link': {
     name: 'resume',
   },
-  'https://github.com/knight069': {
+  'https://github.com/knight099/': {
     name: 'github',
+  },
+  {
+  'https://www.linkedin.com/in/vkrishna0/': {
+    name: 'linkedin',
   },
 }
 
