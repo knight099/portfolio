@@ -10,11 +10,11 @@ const navItems = {
   'https://drive.google.com/file/d/1fOYFUkXRTTJWkI7Hrt3WLBIW-9W1v4nS/view?usp=drive_link': {
     name: 'resume',
   },
-  'https://github.com/knight099/': {
+  'https://github.com/knight099': {
     name: 'github',
   },
   {
-  'https://www.linkedin.com/in/vkrishna0/': {
+  'https://www.linkedin.com/in/vkrishna0': {
     name: 'linkedin',
   },
 }
