@@ -13,7 +13,6 @@ const navItems = {
   'https://github.com/knight099': {
     name: 'github',
   },
-  {
   'https://www.linkedin.com/in/vkrishna0': {
     name: 'linkedin',
   },
