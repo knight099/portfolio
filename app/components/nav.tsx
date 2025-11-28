@@ -7,7 +7,7 @@ const navItems = {
   '/blog': {
     name: 'projects',
   },
-  'https://drive.google.com/file/d/1fOYFUkXRTTJWkI7Hrt3WLBIW-9W1v4nS/view?usp=drive_link': {
+  'https://drive.google.com/file/d/1n_xbAvRavfw7VmuUnHlGcHPdgCtlg5NO/view?usp=drive_link': {
     name: 'resume',
   },
   'https://github.com/knight099': {
