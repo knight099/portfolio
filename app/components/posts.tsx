@@ -29,13 +29,28 @@ function PostList({
       {sorted.map((post) => (
         <li key={post.slug} className="relative pl-6 pb-8 last:pb-0 group">
           <span className="absolute -left-[5px] top-1.5 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-700 ring-4 ring-white dark:ring-black transition-colors group-hover:bg-amber-500" />
-          <Link href={`/blog/${post.slug}`} className="block">
-            <p className="font-mono text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-500">
-              {post.metadata.dateRange || formatDate(post.metadata.publishedAt, false)}
-            </p>
-            <h3 className="mt-1 font-medium text-neutral-900 dark:text-neutral-100 tracking-tight transition-colors group-hover:text-amber-600 dark:group-hover:text-amber-500">
+          <p className="font-mono text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-500">
+            {post.metadata.dateRange || formatDate(post.metadata.publishedAt, false)}
+          </p>
+          <div className="mt-1 flex flex-wrap items-baseline gap-x-2.5">
+            <Link
+              href={`/blog/${post.slug}`}
+              className="font-medium text-neutral-900 dark:text-neutral-100 tracking-tight transition-colors group-hover:text-amber-600 dark:group-hover:text-amber-500"
+            >
               {post.metadata.title}
-            </h3>
+            </Link>
+            {post.metadata.liveUrl && (
+              <a
+                href={post.metadata.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-amber-600 dark:text-amber-500 underline underline-offset-2 decoration-amber-600/40 dark:decoration-amber-500/40 hover:decoration-amber-600 dark:hover:decoration-amber-500"
+              >
+                Live Link
+              </a>
+            )}
+          </div>
+          <Link href={`/blog/${post.slug}`} className="block">
             {post.metadata.summary && (
               <p className="mt-1.5 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400 max-w-[60ch]">
                 {post.metadata.summary}

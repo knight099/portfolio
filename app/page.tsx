@@ -17,12 +17,6 @@ const stack = [
 export default function Page() {
   return (
     <section>
-      <p className="font-mono text-xs uppercase tracking-widest text-neutral-500 dark:text-neutral-500 mb-3">
-        Software Engineer
-      </p>
-      <h1 className="mb-5 text-3xl font-semibold tracking-tighter">
-        Vaibhaw Krishna
-      </h1>
       <p className="mb-8 max-w-[62ch] text-neutral-700 dark:text-neutral-300 leading-relaxed">
         {`I design and own backend systems end to end — from architecture and data
         pipelines to the infra they run on. Most recently I've built an analytics

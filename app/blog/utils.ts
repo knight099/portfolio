@@ -9,6 +9,7 @@ type Metadata = {
   type?: 'experience' | 'project'
   dateRange?: string
   stack?: string
+  liveUrl?: string
 }
 
 function parseFrontmatter(fileContent: string) {
