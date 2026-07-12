@@ -14,10 +14,10 @@ export const metadata: Metadata = {
     default: 'Vaibhaw Krishna | Software Engineer',
     template: '%s | Vaibhaw Krishna',
   },
-  description: 'Software Engineer specializing in backend development, microservices, and cloud-native solutions. Expert in Python, Go, Java, and modern web technologies.',
+  description: 'Software Engineer designing and owning backend systems end to end — architecture, data pipelines, and the infrastructure they run on. Python, Go, AWS, and distributed systems.',
   openGraph: {
     title: 'Vaibhaw Krishna | Software Engineer',
-    description: 'Software Engineer specializing in backend development, microservices, and cloud-native solutions.',
+    description: 'Software Engineer designing and owning backend systems end to end — architecture, data pipelines, and infrastructure. Python, Go, AWS, distributed systems.',
     url: baseUrl,
     siteName: 'Vaibhaw Krishna Portfolio',
     locale: 'en_US',
@@ -52,7 +52,7 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="antialiased bg-white dark:bg-black max-w-2xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
