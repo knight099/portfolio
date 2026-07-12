@@ -7,7 +7,7 @@ const navItems = {
 }
 
 const socialItems = {
-  'https://drive.google.com/file/d/1oITE3xQZ7zyFwX-tT71m9HIs2pySxCJg/view?usp=drive_link':
+  'https://drive.google.com/file/d/1wrSXSmY0oqvylNa-BbD1W8WwYRAMIhVO/view?usp=drive_link':
     { name: 'resume' },
   'https://github.com/knight099': { name: 'github' },
   'https://www.linkedin.com/in/vkrishna0': { name: 'linkedin' },
