@@ -322,7 +322,7 @@ export default function Page() {
           computing, distributed systems and ambitious early-stage products.`}
         </p>
         <a
-          href="mailto:vaibhaw.krishna.1@gmail.com"
+          href="mailto:kvaibhaw300@gmail.com"
           className="mt-3 inline-block text-sm font-medium text-amber-600 dark:text-amber-500 underline underline-offset-2 decoration-amber-600/40 dark:decoration-amber-500/40 hover:decoration-amber-600 dark:hover:decoration-amber-500"
         >
           Let's talk →
@@ -356,7 +356,7 @@ export default function Page() {
           </a>
           <span className="text-neutral-300 dark:text-neutral-700">·</span>
           <a
-            href="mailto:vaibhaw.krishna.1@gmail.com"
+            href="mailto:kvaibhaw300@gmail.com"
             className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100"
           >
             Email
