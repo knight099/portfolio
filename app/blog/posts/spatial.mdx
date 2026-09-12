@@ -1,0 +1,33 @@
+---
+title: 'Spatial'
+publishedAt: '2026-08-01'
+summary: 'Deterministic spatial computing infrastructure — a sensor-agnostic foundation for perception, interaction and physical-world interfaces, running on a webcam and a projector.'
+type: 'project'
+dateRange: '2026 — Present'
+stack: 'Python · FastAPI · WebSocket · React · Computer Vision'
+---
+
+# ◈ Spatial
+
+**Spatial** is a multi-sensor, multi-camera, multi-projector platform for deterministic spatial computing — designed to run on commodity hardware first (an RGB webcam and a projector) with a contract system that scales up to RGB-D cameras, stereo vision, LiDAR, hand tracking, and projector fleets.
+
+---
+
+## 🔍 Overview
+
+### Architecture
+
+```
+Sensors → Perception → SpatialWorld → Interaction → Projection
+```
+
+- **Core:** world modeling, geometry, perception, interaction and event handling, exposed through a typed `SpatialWorld` API with capability-based observations and a replay mechanism.
+- **Devices:** replaceable sensor and projector adapters, so new hardware plugs in without touching the core.
+- **Providers:** external service integrations.
+- **AI:** semantic tools and capabilities layered on top of the world model.
+- **Apps:** runtime and UI entry points — a FastAPI/WebSocket backend paired with a React/Vite frontend.
+
+### Key Features
+- **Sensor-agnostic core:** the same world model runs whether the input is a webcam or a LiDAR array.
+- **Deterministic runtime:** commissioning procedures and a replay mechanism make physical-hardware behavior reproducible.
+- **Commodity-first:** starts working with hardware most people already have.

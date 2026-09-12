@@ -11,13 +11,13 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Vaibhaw Krishna | Software Engineer',
+    default: 'Vaibhaw Krishna | AI Systems Engineer & Builder',
     template: '%s | Vaibhaw Krishna',
   },
-  description: 'Software Engineer designing and owning backend systems end to end — architecture, data pipelines, and the infrastructure they run on. Python, Go, AWS, and distributed systems.',
+  description: 'AI Systems Engineer & Builder working across edge AI, computer vision, spatial computing, and distributed backends. Python, Go, AWS.',
   openGraph: {
-    title: 'Vaibhaw Krishna | Software Engineer',
-    description: 'Software Engineer designing and owning backend systems end to end — architecture, data pipelines, and infrastructure. Python, Go, AWS, distributed systems.',
+    title: 'Vaibhaw Krishna | AI Systems Engineer & Builder',
+    description: 'AI Systems Engineer & Builder working across edge AI, computer vision, spatial computing, and distributed backends. Python, Go, AWS.',
     url: baseUrl,
     siteName: 'Vaibhaw Krishna Portfolio',
     locale: 'en_US',
@@ -47,18 +47,20 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
+        'text-black dark:text-white',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
-      <body className="antialiased bg-white dark:bg-black max-w-4xl mx-4 mt-8 mb-20 lg:mx-auto">
-        <div className="lg:flex lg:gap-16">
-          <Navbar />
-          <main className="flex-1 min-w-0 flex flex-col px-2 md:px-0">
-            {children}
-            <Footer />
-          </main>
+      <body className="antialiased bg-transparent">
+        <div className="mx-auto w-full max-w-6xl px-6 mt-8 mb-20 lg:px-12">
+          <div className="lg:flex lg:gap-16">
+            <Navbar />
+            <main className="flex-1 min-w-0 flex flex-col px-2 md:px-0">
+              {children}
+              <Footer />
+            </main>
+          </div>
         </div>
         <Analytics />
         <SpeedInsights />

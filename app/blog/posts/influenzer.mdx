@@ -1,0 +1,29 @@
+---
+title: 'Influenzer'
+publishedAt: '2026-06-01'
+summary: 'Creator × brand marketplace backend — campaigns, proposals, real-time messaging, and a Razorpay escrow/wallet system underneath, built with clean architecture in Go.'
+type: 'project'
+dateRange: '2026 — Present'
+stack: 'Go · PostgreSQL · WebSockets · S3 · Razorpay'
+---
+
+# ◆ Influenzer
+
+**Influenzer** is the backend for a B2B creator marketplace connecting brands and content creators — brands manage campaigns and discover creators, creators browse a job feed and submit proposals.
+
+---
+
+## 🔍 Overview
+
+### Architecture
+
+```
+Brand → Campaign → Creator → Proposal → Escrow → Payout
+```
+
+- **Auth:** email/password and Google OAuth.
+- **Marketplace:** brand-side campaign management and creator discovery, creator-side job feed and proposals.
+- **Media:** video uploads to AWS S3.
+- **Messaging:** real-time communication between brands and creators.
+- **Payments:** Razorpay-backed escrow and wallet tracking for campaign payouts.
+- **Architecture:** Clean Architecture in Go (Gin Gonic, GORM, PostgreSQL on Neon), containerized with Docker, documented with Swagger.

@@ -75,7 +75,7 @@ export function ExperienceTimeline() {
   return <PostList posts={experience} />
 }
 
-const PROJECT_ORDER = ['nightwatch', 'getcolabb', 'episodd']
+const PROJECT_ORDER = ['nightwatch', 'spatial', 'streamshort', 'influenzer', 'getcolabb', 'episodd']
 
 export function ProjectTimeline() {
   let projects = getBlogPosts().filter(

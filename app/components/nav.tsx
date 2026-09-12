@@ -10,6 +10,7 @@ const socialItems = {
   'https://drive.google.com/file/d/1YfuiGBzCLWML4JJAQ5ta6Nwx06IKm0MX/view?usp=sharing':
     { name: 'resume' },
   'https://github.com/knight099': { name: 'github' },
+  'https://x.com/vkrishna0': { name: 'x' },
   'https://www.linkedin.com/in/vkrishna0': { name: 'linkedin' },
 }
 
@@ -23,7 +24,7 @@ export function Navbar() {
           </h2>
         </Link>
         <p className="mt-1.5 font-mono text-sm uppercase tracking-widest text-neutral-500 dark:text-neutral-500">
-          Software Engineer
+          AI Systems Engineer & Builder
         </p>
 
         <nav

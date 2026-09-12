@@ -1,0 +1,28 @@
+---
+title: 'Streamshort'
+publishedAt: '2026-07-01'
+summary: 'Go backend for short-form video streaming — uploads, HLS delivery over CloudFront, subscriptions and creator payouts, with a full CI/CD pipeline on AWS App Runner.'
+type: 'project'
+dateRange: '2026 — Present'
+stack: 'Go · PostgreSQL · HLS · AWS · Razorpay'
+---
+
+# ⚡ Streamshort
+
+**Streamshort** is a Go backend for short-form video streaming with built-in creator monetization — letting independent creators upload, distribute and monetize content, while viewers get a curated short-video experience.
+
+---
+
+## 🔍 Overview
+
+### Architecture
+
+```
+Creator → Upload → Processing → Storage → HLS → Viewer
+```
+
+- **API:** authentication, user management, creator onboarding (including KYC), series/episode content management, and user interactions (likes, ratings, comments).
+- **Video delivery:** signed upload URLs, HLS streaming served through CloudFront.
+- **Monetization:** subscription payments and creator payouts via Razorpay.
+- **Infrastructure:** AWS App Runner, ECR and CloudFront, with auto-scaling and built-in monitoring.
+- **CI/CD:** every push to `main` builds, tests and deploys automatically via GitHub Actions.
